@@ -1,2 +1,11 @@
+function multiply(num1, num2) {
+    answer = num1 * num2;
+    return answer;
+}
+console.log(answer);
 
-// Write your code here
+
+function isInteger(random) {
+    return Math.floor(Math.random() * 10);
+}
+console.log(isInteger);
